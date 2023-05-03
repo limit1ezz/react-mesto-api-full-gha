@@ -1,0 +1,16 @@
+.page-footer__copyright {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.21;
+  font-weight: 400;
+  color: rgb(84 84 84);
+}
+
+@media screen and (min-width: 768px) {
+  .page-footer__copyright {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+

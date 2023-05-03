@@ -1,0 +1,11 @@
+.profile__content {
+  padding-left: 27px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 576px) {
+  .profile__content {
+    padding-left: 0;
+  }
+}
+

@@ -1,0 +1,19 @@
+.page-header__link {
+  font-size: 14px;
+  line-height: 1.21;
+  font-weight: 400;
+  text-align: right;
+  text-decoration: none;
+  color: rgb(255 255 255);
+}
+
+.page-header__link:hover {
+  color: rgb(255 255 255 / 60%);
+}
+
+@media screen and (min-width: 768px) {
+  .page-header__link {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}

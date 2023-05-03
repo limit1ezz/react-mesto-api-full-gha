@@ -1,0 +1,7 @@
+.photo-card__like-box {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+}
+
