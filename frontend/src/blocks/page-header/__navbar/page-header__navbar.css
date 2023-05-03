@@ -1,0 +1,22 @@
+.page-header__navbar {
+  margin: 0 auto;
+  padding: 28px 19px 30px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 880px;
+  border-bottom: 1px solid rgb(84 84 84 / 70%);
+}
+
+@media screen and (min-width: 768px) {
+  .page-header__navbar {
+    padding-top: 45px;
+    padding-bottom: 39px;
+  }
+}
+
+@media screen and (min-width: 935px) {
+  .page-header__navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.page-header__mobile-menu {
+  margin: 0 auto;
+  padding: 40px 19px;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 880px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(84 84 84 / 70%);
+  row-gap: 18px;
+}
+
+@media screen and (min-width: 640px) {
+  .page-header__mobile-menu {
+    display: none;
+  }
+}

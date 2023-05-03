@@ -1,0 +1,21 @@
+.page-footer {
+  margin: 0 auto;
+  padding: 50px 19px 36px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 880px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-footer {
+    padding-top: 66px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 935px) {
+  .page-footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
