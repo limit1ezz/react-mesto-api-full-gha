@@ -1,0 +1,13 @@
+.popup__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+}
+
+@media screen and (min-width: 640px) {
+  .popup__flex {
+    row-gap: 32px;
+  }
+}

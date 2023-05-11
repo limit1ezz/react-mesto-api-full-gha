@@ -1,0 +1,23 @@
+.page-header__icon-wrapper {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.page-header__icon-wrapper:focus {
+  border-radius: 2px;
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(0 0 0), 0 0 0 calc(2px + 2px) rgb(59 130 246 /100%);
+}
+
+.page-header__icon-wrapper:hover {
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 640px) {
+  .page-header__icon-wrapper {
+    display: none;
+  }
+}

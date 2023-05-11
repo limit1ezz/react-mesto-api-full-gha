@@ -1,0 +1,18 @@
+.form__button_type_inverted {
+  margin-top: 215px;
+  font-size: 16px;
+  color: rgb(0 0 0);
+  background-color: rgb(255 255 255);
+}
+
+.form__button_type_inverted:hover {
+  background-color: rgb(255 255 255 / 60%);
+}
+
+.form__button:disabled {
+  pointer-events: none;
+  color: rgb(196 196 196);
+  background-color: rgb(0 0 0 / 20%);
+  border-color: rgb(255 255 255 / 60%);
+  cursor: default;
+}
