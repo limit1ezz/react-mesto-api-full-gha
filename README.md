@@ -8,6 +8,6 @@
 
 IP-адрес 158.160.29.176
 
-Frontend [https://www.practicum-cyrillgalkin.nomoredomains.monster](https://www.practicum-cyrillgalkin.nomoredomains.monster)
+Frontend [https://practicum-cyrillgalkin.nomoredomains.monster](https://practicum-cyrillgalkin.nomoredomains.monster)
 
 Backend [https://api.practicum-cyrilgalkin.nomoredomains.monster](https://api.practicum-cyrilgalkin.nomoredomains.monster)
