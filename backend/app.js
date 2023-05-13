@@ -22,15 +22,15 @@ const app = express();
 // Connect to database
 mongoose.connect(NODE_ENV === 'production' ? DB_URL : config.get('dbURL'));
 
+// Connect request logger
+app.use(requestLogger);
+
 // Configure middleware
 app.use(limiter);
 app.use(helmet(helmetConfig));
 app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-
-// Connect request logger
-app.use(requestLogger);
 
 // Use all routes
 app.use(routes);
