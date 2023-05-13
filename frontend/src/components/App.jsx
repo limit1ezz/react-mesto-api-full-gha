@@ -162,6 +162,7 @@ function App() {
 
   async function handleRegister(email, password) {
     try {
+      setIsRegistered(false)
       setIsLoading(true)
       await auth.register(email, password)
       setIsRegistered(true)
@@ -205,6 +206,7 @@ function App() {
   function handleLogout() {
     localStorage.removeItem('token')
     setUserEmail('')
+
     setIsLoggedIn(false)
   }
 
